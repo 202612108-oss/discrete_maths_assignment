@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Learning Hub | Dashboard</title><style>
+:root{--ink:#17233b;--muted:#64748b;--line:#e5eaf2;--blue:#3157d5;--pale:#f3f6ff;--bg:#f7f9fc}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
+header{background:#101b34;color:white;padding:18px max(22px,calc((100% - 1180px)/2));display:flex;justify-content:space-between;align-items:center;gap:16px;position:sticky;top:0;z-index:5}
+.brand{font-weight:750;letter-spacing:.2px}.topnav{display:flex;gap:18px;flex-wrap:wrap}.topnav a{color:#dce5ff;font-size:14px}
+.wrap{max-width:1180px;margin:auto;padding:34px 22px}.hero{padding:42px;border-radius:24px;background:linear-gradient(120deg,#17284c,#3157d5);color:white}
+.eyebrow{text-transform:uppercase;letter-spacing:1.5px;font-size:11px;font-weight:800;color:#aebfff}.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.12;margin:12px 0}.hero p{max-width:720px;color:#e0e8ff;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:26px}.tile{background:white;border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column;min-height:270px;box-shadow:0 8px 28px #1b2b4b0a}
+.tile .num{font-size:12px;color:var(--blue);font-weight:800;letter-spacing:1px}.tile h2{font-size:22px;line-height:1.25;margin:12px 0}.tile p{color:var(--muted);margin:0 0 22px}.tile a.button{margin-top:auto;display:inline-block;background:var(--blue);color:white;padding:11px 16px;border-radius:10px;font-weight:700;width:max-content}
+.info{margin-top:26px;padding:20px 22px;background:#eef3ff;border:1px solid #dce5ff;border-radius:14px;color:#34466f}
+footer{padding:30px 0;color:var(--muted);font-size:13px}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.hero{padding:28px}.topnav{gap:10px}}
+</style></head><body><header><div class="brand">∑ Learning Hub</div><nav class="topnav"><a href="index.html">Dashboard</a><a href="rosen_textbook_notes.html">Rosen Notes</a><a href="probability_statistics_notes.html">Probability & Statistics</a><a href="analytical_notes_algorithms.html">Algorithms</a></nav></header>
+<main class="wrap">
+<section class="hero"><div class="eyebrow">Your academic workspace</div><h1>Learn. Explore. Understand.</h1>
+<p>A single dashboard for three focused study resources. Open a subject, navigate its chapters, and study at your own pace. No account, login, or signup is required.</p></section>
+<section class="grid">
+<article class="tile"><div class="num">RESOURCE 01 · DISCRETE MATHEMATICS</div><h2>Rosen Textbook Notes</h2><p>Chapter-wise notes organized around <i>Discrete Mathematics and Its Applications</i> by Kenneth H. Rosen. Browse the existing notes dashboard and its topic navigation.</p><a class="button" href="rosen_textbook_notes.html">Open Rosen notes →</a></article>
+<article class="tile"><div class="num">RESOURCE 02 · STATISTICS</div><h2>Introduction to Probability and Statistics</h2><p>Structured notes following the supplied 13th-edition textbook by Mendenhall, Beaver, and Beaver, from describing data through statistical inference and regression.</p><a class="button" href="probability_statistics_notes.html">Open probability & statistics →</a></article>
+<article class="tile"><div class="num">RESOURCE 03 · ALGORITHMS</div><h2>Analytical Notes on Algorithms</h2><p>A compact, exam-oriented analytical note covering algorithms, design approaches, growth of functions, asymptotic notation, and time/space complexity.</p><a class="button" href="analytical_notes_algorithms.html">Open algorithm notes →</a></article>
+</section>
+
+<footer>Independent study companion. Textbook titles and chapter organization are used as references; explanations and examples here are newly written study notes.</footer>
+</main></body></html>
